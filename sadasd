@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Я</title>
+ </head>
+ <body>
+  <section>
+   <h2>Абдуллатипов Курбан</h2>
+   <p> Я Курбан ♂, учусь в 11 классе. Моё хобби рисование. В будущем надеюсь стать геймдизайнером или геймхудожником. Очень слино привлекает компании RIOT Games и VALVE. RIOT как игровая комания очень хороша, их способ создания нового персонаже в игре мне очень нравится и сами люди в компании позитивнные. VALVE нравится тем что она не зависимая комания в ней есть возможность делать то что тебе нравится и при этом над тобой нет начальства, ведь даже у них в офисе стоит вывиска с фотографией Гейба Ньюэлла с надписью "Из всех людей в компании, которые не являются вашими начальниками, Гейб не является им в НАИБОЛЬШЕЙ степени". Это всё. Пока Пока ! И ещё взгляните видео, так крутая песня! =3  </p>
+  <form action="handler.php">
+   <p><b>Вам понравился блог?</b></p>
+    <p><input name="dzen" type="radio" value="nedzen"> Очень понравилось</p>
+    <p><input name="dzen" type="radio" value="nedzen"> Да</p>
+    <p><input name="dzen" type="radio" value="dzen"> Нормально</p>
+    <p><input name="dzen" type="radio" value="pdzen" checked> НЕТ, не понраивлось</p>
+    <p><input name="dzen" type="radio" value="pdzen" checked> Вообще говно</p>
+    <p><input type="submit" value="Выбрать"></p>
+  </form> 
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/fzQ6gRAEoy0" frameborder="0" allowfullscreen></iframe>
+<form action="#" id='send' method='POST'>
+  <fieldset>
+    <label>Имя</label>
+    <input type='text' name='name' placeholder='Имя' required><span></span>
+    <br>
+    <label>Фамилия</label>
+    <input type='text' name='surname' placeholder='Фамилия' required><span></span>
+    <br>
+  </fieldset>
+  <fieldset>
+    <label>Эл. почта</label>
+    <input type='email' name='email' placeholder='Эл. почта' required><span></span>
+    <br>
+    <label>Пароль</label>
+    <input type='password' name='pass' placeholder='Пароль' required><span></span>
+    <br>
+    <label>Повторите</label>
+    <input type='password' name='repeat' placeholder='Повторите' required><span></span>
+    <br>
+  </fieldset>
+</form>
+<div class="sum">
+  <input type="submit" value="Зарегестрироваться" form='send'>
+</div>
+
+  </section>
+ </body>
+</html>
